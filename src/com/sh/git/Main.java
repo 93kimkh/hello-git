@@ -9,6 +9,8 @@ package com.sh.git;
  * 	 -hard : 지정 커밋 이후 변경사항 버림
  *   -mixed : 지정 커밋 이후 변경사항을 unstaging area 보관. 재추가 후 커밋 가능
  *   -soft : 지정 커밋 이후 변경사항을 staging area 보관. 즉시 커밋 가능
+ *   
+ *   
  */
 public class Main {
 	
@@ -20,6 +22,10 @@ public class Main {
 		System.out.println("Hello world");
 		System.out.println("Hello git");
 
+	}
+	
+	public void feature() {
+		
 	}
 
 }
